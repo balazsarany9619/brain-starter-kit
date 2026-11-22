@@ -2,6 +2,8 @@
 
 Give Claude Code a permanent memory: who you are, how you want to work, and the rules of every project. Setup takes about 10 minutes of multiple-choice questions. Claude writes the files, you answer.
 
+![The brain structure in Finder: hub, one project, its topic files](docs/brain-structure.png)
+
 ```
 ~/.claude/CLAUDE.md          global brain: how Claude works with you, every session
 <hub>/CLAUDE.md              map of all projects and a router
