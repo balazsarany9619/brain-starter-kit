@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "python ~/.claude/hooks/brain-router.py" } ] }
+    ],
+    "PreToolUse": [
+      { "matcher": "Write", "hooks": [ { "type": "command", "command": "python ~/.claude/hooks/memory-check.py" } ] }
+    ]
+  }
+}
